@@ -13,3 +13,7 @@ Route::get('/secret', function () {
 Route::get('/secret-button', function () {
     return inertia('button', ['lirnui' => 'Laravel, Inertia, NextUI, TypeScript']);
 });
+
+Route::get('/test', function () {
+    return inertia('test.test', ['lirnui' => 'Laravel, Inertia, NextUI, TypeScript']);
+});
